@@ -3,7 +3,22 @@ guid: 352542397160778469c9f5d08c886f68
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BaseHead_Material
+    second: {fileID: 2100000, guid: fa5dc1cb32b7f0441a6496d9554c432a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MagnetMaterial
+    second: {fileID: 2100000, guid: b14fec9c23e453c4dad25ce5ad742459, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong2
+    second: {fileID: 2100000, guid: aa6e0a47cb0e2684dbf0284d882f317a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
