@@ -37,6 +37,7 @@ public class DialogSystem : MonoBehaviour
         foreach (char letter in dialog.ToCharArray())
         {
             dialogText.text += letter;
+            SoundManager.instance.Play("DialogLetter");
             yield return new WaitForSeconds(timeBetweenWords);
         }
         yield return new WaitForSeconds(1f);

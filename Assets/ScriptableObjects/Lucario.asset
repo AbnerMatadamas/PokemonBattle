@@ -12,7 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeb9374d3e766d543b79ce35cb74806f, type: 3}
   m_Name: Lucario
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
-  characterName: 
-  maxHealth: 0
-  attacks: []
+  characterName: Lucario
+  maxHealth: 1000
+  attacks:
+  - attackName: Swirl
+    minDamage: 200
+    maxDamage: 250
+    animationName: Attack01
+    attackDuration: 4
+    attackParticles: {fileID: 0}
+    attackHitParticles: {fileID: 0}
+  - attackName: Leg Kick
+    minDamage: 250
+    maxDamage: 350
+    animationName: Attack02
+    attackDuration: 4
+    attackParticles: {fileID: 0}
+    attackHitParticles: {fileID: 0}
+  - attackName: Punch
+    minDamage: 350
+    maxDamage: 400
+    animationName: Attack03
+    attackDuration: 4
+    attackParticles: {fileID: 0}
+    attackHitParticles: {fileID: 0}
   winAnimationName: 

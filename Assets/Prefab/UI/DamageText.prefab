@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DamageText
   _textAnimator: {fileID: 8380959977242028642}
-  _animationName: Show
+  _animationName: ShowAndHide
   _text: {fileID: 6577729182472589657}
 --- !u!95 &8380959977242028642
 Animator:
