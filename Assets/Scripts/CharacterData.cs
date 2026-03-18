@@ -19,4 +19,5 @@ public class AttackData
     public float attackDuration;
     public GameObject attackParticles;
     public GameObject attackHitParticles;
+    public string attackSoundName;
 }

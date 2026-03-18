@@ -19,21 +19,24 @@ MonoBehaviour:
     minDamage: 100
     maxDamage: 200
     animationName: Attack01
-    attackDuration: 4
-    attackParticles: {fileID: 0}
-    attackHitParticles: {fileID: 0}
+    attackDuration: 2
+    attackParticles: {fileID: 8299643919931209824, guid: 78117b64428ebc248936b043d6889d55, type: 3}
+    attackHitParticles: {fileID: 4584210380362366865, guid: 2cad6f9dba565f0418097c8fc3bec364, type: 3}
+    attackSoundName: Charizard_Attack01
   - attackName: Tail Spin
     minDamage: 200
     maxDamage: 300
     animationName: Attack02
-    attackDuration: 4
-    attackParticles: {fileID: 0}
-    attackHitParticles: {fileID: 0}
+    attackDuration: 2
+    attackParticles: {fileID: 8299643919931209824, guid: 78117b64428ebc248936b043d6889d55, type: 3}
+    attackHitParticles: {fileID: 4584210380362366865, guid: 2cad6f9dba565f0418097c8fc3bec364, type: 3}
+    attackSoundName: Charizard_Attack02
   - attackName: Fire Ball
     minDamage: 300
     maxDamage: 500
     animationName: Attack03
-    attackDuration: 4
-    attackParticles: {fileID: 0}
-    attackHitParticles: {fileID: 0}
-  winAnimationName: 
+    attackDuration: 2
+    attackParticles: {fileID: 8299643919931209824, guid: 78117b64428ebc248936b043d6889d55, type: 3}
+    attackHitParticles: {fileID: 4584210380362366865, guid: 2cad6f9dba565f0418097c8fc3bec364, type: 3}
+    attackSoundName: Charizard_Attack03
+  winAnimationName: Victory

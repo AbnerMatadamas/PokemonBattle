@@ -19,14 +19,16 @@ MonoBehaviour:
     minDamage: 200
     maxDamage: 300
     animationName: Attack01
-    attackDuration: 4
-    attackParticles: {fileID: 0}
-    attackHitParticles: {fileID: 0}
+    attackDuration: 2
+    attackParticles: {fileID: 988636233921705838, guid: ba9cadcb3d328d34a980f262c05ae9f8, type: 3}
+    attackHitParticles: {fileID: 7675805937192060371, guid: 8aab2f89fbfa83f48ad5325c8038b3cc, type: 3}
+    attackSoundName: Magnemite_Attack01
   - attackName: Double Hit
     minDamage: 300
     maxDamage: 400
     animationName: Attack02
-    attackDuration: 4
-    attackParticles: {fileID: 0}
-    attackHitParticles: {fileID: 0}
-  winAnimationName: 
+    attackDuration: 2
+    attackParticles: {fileID: 988636233921705838, guid: ba9cadcb3d328d34a980f262c05ae9f8, type: 3}
+    attackHitParticles: {fileID: 7675805937192060371, guid: 8aab2f89fbfa83f48ad5325c8038b3cc, type: 3}
+    attackSoundName: Magnemite_Attack02
+  winAnimationName: Victory

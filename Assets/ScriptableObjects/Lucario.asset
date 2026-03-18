@@ -19,21 +19,24 @@ MonoBehaviour:
     minDamage: 200
     maxDamage: 250
     animationName: Attack01
-    attackDuration: 4
-    attackParticles: {fileID: 0}
-    attackHitParticles: {fileID: 0}
+    attackDuration: 2
+    attackParticles: {fileID: 4675162996662460701, guid: f20a5776f0a460047be63340460dc5f9, type: 3}
+    attackHitParticles: {fileID: 8237071902487071817, guid: 67c9a24a9df46e5489c20fb8e9574616, type: 3}
+    attackSoundName: Lucario_Attack01
   - attackName: Leg Kick
     minDamage: 250
     maxDamage: 350
     animationName: Attack02
-    attackDuration: 4
-    attackParticles: {fileID: 0}
-    attackHitParticles: {fileID: 0}
+    attackDuration: 2
+    attackParticles: {fileID: 4675162996662460701, guid: f20a5776f0a460047be63340460dc5f9, type: 3}
+    attackHitParticles: {fileID: 8237071902487071817, guid: 67c9a24a9df46e5489c20fb8e9574616, type: 3}
+    attackSoundName: Lucario_Attack02
   - attackName: Punch
     minDamage: 350
     maxDamage: 400
     animationName: Attack03
-    attackDuration: 4
-    attackParticles: {fileID: 0}
-    attackHitParticles: {fileID: 0}
-  winAnimationName: 
+    attackDuration: 2
+    attackParticles: {fileID: 4675162996662460701, guid: f20a5776f0a460047be63340460dc5f9, type: 3}
+    attackHitParticles: {fileID: 8237071902487071817, guid: 67c9a24a9df46e5489c20fb8e9574616, type: 3}
+    attackSoundName: Lucario_Attack03
+  winAnimationName: Victory

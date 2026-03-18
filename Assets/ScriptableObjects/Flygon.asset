@@ -19,21 +19,24 @@ MonoBehaviour:
     minDamage: 100
     maxDamage: 200
     animationName: Attack01
-    attackDuration: 4
-    attackParticles: {fileID: 0}
-    attackHitParticles: {fileID: 0}
+    attackDuration: 2
+    attackParticles: {fileID: 8699044325340656818, guid: 29db10d3615aa94478b58a425864dd87, type: 3}
+    attackHitParticles: {fileID: 8933821748264322099, guid: b194a70d1cae6d54a8536d4bf8c82eb1, type: 3}
+    attackSoundName: Flygon_Attack01
   - attackName: Tail Wip
     minDamage: 200
     maxDamage: 300
     animationName: Attack02
-    attackDuration: 4
-    attackParticles: {fileID: 0}
-    attackHitParticles: {fileID: 0}
+    attackDuration: 2
+    attackParticles: {fileID: 8699044325340656818, guid: 29db10d3615aa94478b58a425864dd87, type: 3}
+    attackHitParticles: {fileID: 8933821748264322099, guid: b194a70d1cae6d54a8536d4bf8c82eb1, type: 3}
+    attackSoundName: Flygon_Attack02
   - attackName: Sonic Roar
     minDamage: 300
     maxDamage: 400
     animationName: Attack03
-    attackDuration: 4
-    attackParticles: {fileID: 0}
-    attackHitParticles: {fileID: 0}
-  winAnimationName: 
+    attackDuration: 2
+    attackParticles: {fileID: 8699044325340656818, guid: 29db10d3615aa94478b58a425864dd87, type: 3}
+    attackHitParticles: {fileID: 8933821748264322099, guid: b194a70d1cae6d54a8536d4bf8c82eb1, type: 3}
+    attackSoundName: Flygon_Attack03
+  winAnimationName: Victory

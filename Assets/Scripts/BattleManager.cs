@@ -28,6 +28,7 @@ public class BattleManager : MonoBehaviour
             fighter.Initialize();
             if (fighters.Count >= minimumFighters)
             {
+                StopBattle();
                 onStartBattleCount?.Invoke();
             }
         }
@@ -62,6 +63,7 @@ public class BattleManager : MonoBehaviour
             DialogSystem.Instance.ShowDialog(attacker.CharacterData.characterName + " attacks with " + attack.attackData.attackName + "!");
             defender.transform.LookAt(attacker.transform);
             attacker.transform.LookAt(defender.transform);
+            SoundManager.instance.Play(attack.attackData.attackSoundName);
             attacker.Animator.Play(attack.attackData.animationName);
             attack.particlesPool.InstantiateObject(attacker.transform.position);
             float damage = Random.Range(attack.attackData.minDamage, attack.attackData.maxDamage);
